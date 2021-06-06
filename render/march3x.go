@@ -15,7 +15,7 @@ import (
 	"math"
 	"sync"
 
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

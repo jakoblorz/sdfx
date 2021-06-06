@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	svg "github.com/ajstarks/svgo/float"
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

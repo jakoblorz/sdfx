@@ -12,8 +12,8 @@ package main
 import (
 	"log"
 
-	"github.com/deadsy/sdfx/render"
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/render"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

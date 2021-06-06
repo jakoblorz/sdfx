@@ -3,8 +3,8 @@
 
 An A-Frame Birdhouse.
 
-git@github.com:deadsy/sdfx.git
-https://github.com/deadsy/sdfx/tree/master/examples/birdhouse
+git@github.com:jakoblorz/sdfx.git
+https://github.com/jakoblorz/sdfx/tree/master/examples/birdhouse
 
 */
 //-----------------------------------------------------------------------------
@@ -15,9 +15,9 @@ import (
 	"log"
 	"math"
 
-	"github.com/deadsy/sdfx/obj"
-	"github.com/deadsy/sdfx/render"
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/obj"
+	"github.com/jakoblorz/sdfx/render"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

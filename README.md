@@ -1,6 +1,6 @@
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/deadsy/sdfx)](https://goreportcard.com/report/github.com/deadsy/sdfx)
-[![GoDoc](https://godoc.org/github.com/deadsy/sdfx?status.svg)](https://godoc.org/github.com/deadsy/sdfx/sdf)
+[![Go Report Card](https://goreportcard.com/badge/github.com/jakoblorz/sdfx)](https://goreportcard.com/report/github.com/jakoblorz/sdfx)
+[![GoDoc](https://godoc.org/github.com/jakoblorz/sdfx?status.svg)](https://godoc.org/github.com/jakoblorz/sdfx/sdf)
 
 # sdfx
 

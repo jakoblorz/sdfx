@@ -18,7 +18,7 @@ import (
 	"math"
 	"sort"
 
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

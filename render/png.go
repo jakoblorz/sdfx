@@ -15,7 +15,7 @@ import (
 	"math"
 	"os"
 
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/sdf"
 	"github.com/llgcode/draw2d/draw2dimg"
 )
 

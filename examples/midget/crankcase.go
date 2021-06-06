@@ -11,8 +11,8 @@ package main
 import (
 	"math"
 
-	"github.com/deadsy/sdfx/obj"
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/obj"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

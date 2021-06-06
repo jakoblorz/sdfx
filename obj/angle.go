@@ -9,7 +9,7 @@ Angle: Create profiles for steel/aluminum angle.
 package obj
 
 import (
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

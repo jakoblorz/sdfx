@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/sdf"
 	"github.com/yofu/dxf"
 	"github.com/yofu/dxf/color"
 	"github.com/yofu/dxf/drawing"

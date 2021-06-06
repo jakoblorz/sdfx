@@ -4,6 +4,8 @@
 
 package render
 
+import "github.com/jakoblorz/sdfx/sdf"
+
 //-----------------------------------------------------------------------------
 
 const tolerance = 1e-9
@@ -49,3 +51,21 @@ func mapCombinations(n, k int, f func([]int)) {
 }
 
 //-----------------------------------------------------------------------------
+
+func RandomInUnitSphere(rnd Rnd) sdf.V3 {
+	for {
+		p := sdf.V3{2.0*rnd.Float64() - 1.0, 2.0*rnd.Float64() - 1.0, 2.0*rnd.Float64() - 1.0}
+		if p.Dot(p) < 1.0 {
+			return p
+		}
+	}
+}
+
+func RandomInUnitDisk(rnd Rnd) sdf.V3 {
+	for {
+		p := sdf.V3{2.0*rnd.Float64() - 1.0, 2.0*rnd.Float64() - 1.0, 0}
+		if p.Dot(p) < 1.0 {
+			return p
+		}
+	}
+}

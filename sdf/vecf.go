@@ -302,6 +302,33 @@ func (a V3) Neg() V3 {
 	return V3{-a.X, -a.Y, -a.Z}
 }
 
+// Reflect simply reflects the vector based on the normal n
+func (a V3) Reflect(b V3) V3 {
+	return a.Sub(b.MulScalar(2.0 * a.Dot(b)))
+}
+
+// Reflect simply reflects the vector based on the normal n
+func (a V2) Reflect(b V2) V2 {
+	return a.Sub(b.MulScalar(2.0 * a.Dot(b)))
+}
+
+//-----------------------------------------------------------------------------
+
+// Refract returns a refracted vector (or not if there is no refraction possible)
+func (v V3) Refract(n V3, niOverNt float64) (bool, *V3) {
+	uv := v.Normalize()
+	un := n.Normalize()
+
+	dt := uv.Dot(un)
+	discriminant := 1.0 - niOverNt*niOverNt*(1-dt*dt)
+	if discriminant > 0 {
+		refracted := uv.Sub(un.MulScalar(dt)).MulScalar(niOverNt).Sub(un.MulScalar(math.Sqrt(discriminant)))
+		return true, &refracted
+	}
+
+	return false, nil
+}
+
 //-----------------------------------------------------------------------------
 
 // Min return the minimum components of a set of vectors.

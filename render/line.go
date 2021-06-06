@@ -4,7 +4,7 @@
 
 package render
 
-import "github.com/deadsy/sdfx/sdf"
+import "github.com/jakoblorz/sdfx/sdf"
 
 //-----------------------------------------------------------------------------
 

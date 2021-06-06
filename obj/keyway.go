@@ -9,7 +9,7 @@ Keyways in Shafts
 package obj
 
 import (
-	"github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------

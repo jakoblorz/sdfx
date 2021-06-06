@@ -8,9 +8,9 @@ https://www.reddit.com/r/cad/comments/5vwdnc/cad_challenge_18/
 package main
 
 import (
-	"github.com/deadsy/sdfx/obj"
-	"github.com/deadsy/sdfx/render"
-	. "github.com/deadsy/sdfx/sdf"
+	"github.com/jakoblorz/sdfx/obj"
+	"github.com/jakoblorz/sdfx/render"
+	. "github.com/jakoblorz/sdfx/sdf"
 )
 
 //-----------------------------------------------------------------------------
